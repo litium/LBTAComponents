@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'LBTAComponents is a small library of components that makes it easy to build applications programmatically.  One major component is the DatasourceController that allows developers to quickly construct a list view by plugging in a custom Datasource object. In addition, this pod includes helper methods that you can use to anchor views very easily without having to type too much.'
 
-  s.homepage         = 'https://github.com/bhlvoong/LBTAComponents'
+  s.homepage         = 'https://github.com/litium/LBTAComponents'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Brian Voong' => 'letsbuildthatapp@gmail.com' }
-  s.source           = { :git => 'https://github.com/bhlvoong/LBTAComponents.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/litium/LBTAComponents.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/buildthatapp'
 
   s.ios.deployment_target = '9.1'
