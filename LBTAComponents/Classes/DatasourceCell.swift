@@ -13,6 +13,7 @@ open class DatasourceCell: UICollectionViewCell {
     
     open var datasourceItem: Any?
     open weak var controller: DatasourceController?
+    open weak var collectionView: DatasourceCollectionView?
     
     open let separatorLineView: UIView = {
         let lineView = UIView()
